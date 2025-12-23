@@ -1,0 +1,10 @@
+{% extends "core/base.html" %}
+{% block content %}
+
+{% for student in all_students %}
+    <h1>{{ student.roll }}: {{ student.name }}, {{ student.course }}</h1> <br/>
+{% endfor %}
+
+<h1>{{ teacher }}</h1>
+
+{% endblock content %}

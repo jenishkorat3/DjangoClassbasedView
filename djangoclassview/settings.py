@@ -40,6 +40,10 @@ INSTALLED_APPS = [
     'core',
     'templateview',
     'redirectview',
+    'genericclasslistview',
+    'genericclassdetailview',
+    'formview',
+    'createview',
 ]
 
 MIDDLEWARE = [
